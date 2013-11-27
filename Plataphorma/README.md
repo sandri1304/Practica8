@@ -201,7 +201,7 @@ Respuestas a las preguntas de clase:
 		console.log("current user: " + currentUser);
 	});
 	
-	Lo unico que hace es hacer autorun mostrando lo que sale por pantalla, de ahi que lo primero que salga sea null porque la variable currentUser tiene ese valor, posteriormente se comprueba el id del usuario y lo muestra. 
+	Lo unico que hace es hacer autorun mostrando lo que sale por pantalla, lo primero que sale es el valor de currentUser que esta a null, posteriormente comprueba el valor del usuario y lo pone en la variable currentUser con ese valor, posteriormente se comprueba el id del usuario y lo muestra. 
  
 7) ¿Qué sale en la consola cuando te sales?
 	"current user: ZJhyte6TNZiwjWjSL"
@@ -214,6 +214,6 @@ Respuestas a las preguntas de clase:
 		console.log("current user: " + currentUser);
 	});
 	
-	en este caso, puesto que ahora esta autenticado te muestra el valor del id,  pone el valor de currentUser a null y cuando lo vuelve a comprobar este valor esta a null y es lo que te muestra. 
+	en este caso, puesto que ahora esta autenticado te muestra el valor del id,  pone el valor de currentUser a null y cuando lo vuelve a comprobar este valor esta a null, porque no estas autentificado y es lo que te muestra. 
 	
 	
